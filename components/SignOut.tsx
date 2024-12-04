@@ -8,7 +8,7 @@ export default function SignOutButton(){
     };
     return (
         <Button variant="contained"
-        sx={{ backgroundColor: '#C9CBE2' }} onClick={handleSignOut}>
+        sx={{ backgroundColor: '##979BC7' }} onClick={handleSignOut}>
         Sign Out
         </Button>
     )
