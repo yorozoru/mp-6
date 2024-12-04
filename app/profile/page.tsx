@@ -8,7 +8,9 @@ export default async function Profile() {
   const session: Session | null = await getSessionData();
 
   if (!session) {
+    if (cookies().get('sessionId')){
     cookies().delete('sessionId');
+    }
     redirect('/')
   }
 
