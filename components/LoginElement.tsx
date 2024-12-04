@@ -10,7 +10,7 @@ export default function LoginButton() {
 
     return (
         <Button
-            sx={{ display: 'flex', flexDirection: 'row', gap: 1, backgroundColor: '##979BC7' }}
+            sx={{ display: 'flex', flexDirection: 'row', gap: 1, backgroundColor: '#979BC7' }}
             onClick={handleLogin}
         >
             <h2 className="font-bold text-white">Login with Google</h2>
