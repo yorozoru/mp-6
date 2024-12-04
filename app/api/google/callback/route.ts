@@ -75,7 +75,7 @@ export async function GET(request: NextRequest) {
         return redirectResponse;
 
     } catch (error) {
-        console.log(error)
+        console.log(error) //testing
         return new Response(
             JSON.stringify({ error: 'Authentication failed' }), 
             { status: 500 }
